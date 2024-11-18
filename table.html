@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table design</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="w-full flex p-5 px-20 justify-between">
+      <ul class="flex items-center">
+        <li>
+          <img
+            class="rounded-full"
+            src="data:image/jpeg;base64,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"
+            alt=""
+            width="55"
+          />
+        </li>
+        <li class="ml-4 text-2xl">Clients</li>
+      </ul>
+      <div class="flex items-center">
+        <button class="border border-slate-300 p-1 px-5 mr-3 rounded-md">
+          Filter
+          <i class="fa-solid fa-filter"></i>
+        </button>
+        <button class="bg-blue-500 p-1 px-5 rounded-md text-white">
+          New Client
+          <i class="fa-solid fa-user-plus ml-2"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="w-full flex px-20 justify-center items-start">
+      <div class="w-1/6 rounded-lg mr-6">
+        <ul>
+          <li
+            class="p-4 px-6 bg-gray-200 text-blue-500 font-semibold cursor-pointer"
+          >
+            <i class="fa-solid fa-user-group mr-2 text-blue-500"></i> Clients
+          </li>
+          <li class="p-4 px-6 cursor-pointer">
+            <i class="fa-solid fa-chart-bar mr-3 cursor-pointer"></i>Reports
+          </li>
+          <li class="p-4 px-6 cursor-pointer">
+            <i class="fa-solid fa-gears mr-3 cursor-pointer"></i>Settings
+          </li>
+        </ul>
+      </div>
+      <table
+        class="w-4/5 stripped table-auto rounded-xl drop-shadow-md border p-5"
+      >
+        <thead>
+          <tr>
+            <th class="p-5 text-slate-500"></th>
+            <th class="p-5 text-slate-500">Id</th>
+            <th class="p-5 text-slate-500">Fistname</th>
+            <th class="p-5 text-slate-500">Lastname</th>
+            <th class="p-5 text-slate-500">Status</th>
+            <th class="p-5 text-slate-500">Email</th>
+            <th class="p-5 text-slate-500">Gender</th>
+            <th class="p-5 text-slate-500">update</th>
+            <th class="p-5 text-slate-500">delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="odd:bg-gray-100 even:bg-white">
+            <td class="text-center p-4">
+              <input class="cursor-pointer" type="radio" name="" id="" />
+            </td>
+            <td class="text-center p-4">1</td>
+            <td class="text-center p-4">Edge</td>
+            <td class="text-center p-4">Gonzaga</td>
+            <td class="text-center p-4 text-green-600">Active</td>
+            <td class="text-center p-4">devshaiya23@gmail.com</td>
+            <td class="text-center p-4">Male</td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-blue-500 px-4 py-1 rounded-md" href="#">update</a>
+            </td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-red-500 px-4 py-1 rounded-md" href="">delete</a>
+            </td>
+          </tr>
+          <tr class="odd:bg-gray-100 even:bg-white">
+            <td class="text-center p-4">
+              <input class="cursor-pointer" type="radio" name="" id="" />
+            </td>
+            <td class="text-center p-4">2</td>
+            <td class="text-center p-4">Raffy</td>
+            <td class="text-center p-4">Palpita</td>
+            <td class="text-center p-4 text-green-600">Active</td>
+            <td class="text-center p-4">raffypalp@gmail.com</td>
+            <td class="text-center p-4">Male</td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-blue-500 px-4 py-1 rounded-md" href="#">update</a>
+            </td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-red-500 px-4 py-1 rounded-md" href="">delete</a>
+            </td>
+          </tr>
+          <tr class="odd:bg-gray-100 even:bg-white">
+            <td class="text-center p-4">
+              <input class="cursor-pointer" type="radio" name="" id="" />
+            </td>
+            <td class="text-center p-4">3</td>
+            <td class="text-center p-4">David</td>
+            <td class="text-center p-4">Villanueva</td>
+            <td class="text-center p-4 text-green-600">Active</td>
+            <td class="text-center p-4">zedonthespot@gmail.com</td>
+            <td class="text-center p-4">Male</td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-blue-500 px-4 py-1 rounded-md" href="#">update</a>
+            </td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-red-500 px-4 py-1 rounded-md" href="">delete</a>
+            </td>
+          </tr>
+          <tr class="odd:bg-gray-100 even:bg-white">
+            <td class="text-center p-4">
+              <input class="cursor-pointer" type="radio" name="" id="" />
+            </td>
+            <td class="text-center p-4">4</td>
+            <td class="text-center p-4">Boss</td>
+            <td class="text-center p-4">Capitan</td>
+            <td class="text-center p-4 text-red-600">Away</td>
+            <td class="text-center p-4">bossnacapitanpa@gmail.com</td>
+            <td class="text-center p-4">Anime</td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-blue-500 px-4 py-1 rounded-md" href="#">update</a>
+            </td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-red-500 px-4 py-1 rounded-md" href="">delete</a>
+            </td>
+          </tr>
+          <tr class="odd:bg-gray-100 even:bg-white">
+            <td class="text-center p-4">
+              <input class="cursor-pointer" type="radio" name="" id="" />
+            </td>
+            <td class="text-center p-4">5</td>
+            <td class="text-center p-4">Kentoy</td>
+            <td class="text-center p-4">Boo</td>
+            <td class="text-center p-4 text-green-600">Active</td>
+            <td class="text-center p-4">linuxuser@gmail.com</td>
+            <td class="text-center p-4">Male</td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-blue-500 px-4 py-1 rounded-md" href="#">update</a>
+            </td>
+            <td class="text-center p-4 text-white">
+              <a class="bg-red-500 px-4 py-1 rounded-md" href="">delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- sample table -->
+  </body>
+</html>
